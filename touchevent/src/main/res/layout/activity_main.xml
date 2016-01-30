@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--引用LinearLayout1-->
+<com.jikexueyuan.touchevent.LinearLayout1 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jikexueyuan.touchevent.MainActivity">
+
+    <!--嵌套布局-->
+    <com.jikexueyuan.touchevent.LinearLayout2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.jikexueyuan.touchevent.LinearLayout2>
+
+</com.jikexueyuan.touchevent.LinearLayout1>
