@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/dragthepic" />
             <option value="$PROJECT_DIR$/touch" />
             <option value="$PROJECT_DIR$/touchevent" />
             <option value="$PROJECT_DIR$/touchgesture" />

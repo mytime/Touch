@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Touch.iml" filepath="$PROJECT_DIR$/Touch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dragthepic/dragthepic.iml" filepath="$PROJECT_DIR$/dragthepic/dragthepic.iml" />
       <module fileurl="file://$PROJECT_DIR$/touch/touch.iml" filepath="$PROJECT_DIR$/touch/touch.iml" />
       <module fileurl="file://$PROJECT_DIR$/touchevent/touchevent.iml" filepath="$PROJECT_DIR$/touchevent/touchevent.iml" />
       <module fileurl="file://$PROJECT_DIR$/touchgesture/touchgesture.iml" filepath="$PROJECT_DIR$/touchgesture/touchgesture.iml" />
