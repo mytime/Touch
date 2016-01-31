@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/touch" />
             <option value="$PROJECT_DIR$/touchevent" />
             <option value="$PROJECT_DIR$/touchgesture" />
+            <option value="$PROJECT_DIR$/velocitytracker" />
           </set>
         </option>
       </GradleProjectSettings>

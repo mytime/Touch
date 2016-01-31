@@ -1,1 +1,1 @@
-include ':touch', ':touchevent', ':touchgesture'
+include ':touch', ':touchevent', ':touchgesture', ':velocitytracker'
