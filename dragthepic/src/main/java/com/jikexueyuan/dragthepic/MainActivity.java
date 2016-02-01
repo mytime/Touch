@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
                     moveImageView = imageView;
 
                     //X轴差值
-                    diffX = getTouchXPotion(event,pointIndex) - downParams.leftMargin;
+                    diffX = getTouchXPotion(event, pointIndex) - downParams.leftMargin;
                     //Y轴差值
-                    diffY = getTouchYPotion(event,pointIndex) - downParams.topMargin;
+                    diffY = getTouchYPotion(event, pointIndex) - downParams.topMargin -actionBarHeight - notifiHeight;
                 }
 
 
@@ -91,8 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     //获取X坐标
                     param.leftMargin = (int) (getTouchXPotion(event, pointIndex) - diffX);
                     //获取Y坐标
-                    param.topMargin = (int) (getTouchYPotion(event,
-                            pointIndex)-diffY - actionBarHeight-notifiHeight);
+                    param.topMargin = (int) (getTouchYPotion(event, pointIndex) - diffY - actionBarHeight - notifiHeight);
 
                     //设置属性
                     imageView.setLayoutParams(param);
